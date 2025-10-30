@@ -1,8 +1,8 @@
 from jira import JIRA
 
-jira_server = "https://rifaqatnawaz25.atlassian.net"
-jira_email = "rifaqatnawaz25@gmail.com"
-jira_api_token = "ATATT3xFfGF0V-lu9qOjwjj0DkkRtPUOhB4VDceU0l78gXb-K2hO_1PU8zQrQhrlJgXgvNiPp5kyUntr4PvVd4mrYHKdltStjwLi_Vx2KfTHCspLWD3o988K4zHeJLCmHOmKfkZbCvNOxYBVA76V_XLf8PawjR25rBulM5ox8jBd5-YnnY2oIK8=6C1F455B"
+jira_server = "your_jira_server_url_here"
+jira_email = "your_email_here"
+jira_api_token = "your_api_token_here"
 
 jira = JIRA(server=jira_server, basic_auth=(jira_email, jira_api_token))
 
